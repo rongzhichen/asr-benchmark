@@ -1,0 +1,18 @@
+{"audio_info": {"duration": 4200},
+ "result": {"text": "大家好，欢迎来到我的频道。今天聊聊为什么开始做视频。",
+  "utterances": [
+   {"text": "大家好，欢迎来到我的频道。", "start_time": 120, "end_time": 1900,
+    "words": [{"text": "大家好", "start_time": 120, "end_time": 700, "confidence": 0.98},
+              {"text": "，", "start_time": 700, "end_time": 700, "confidence": 0},
+              {"text": "欢迎", "start_time": 720, "end_time": 1100, "confidence": 0.97},
+              {"text": "来到", "start_time": 1100, "end_time": 1400, "confidence": 0.96},
+              {"text": "我的", "start_time": 1400, "end_time": 1650, "confidence": 0.99},
+              {"text": "频道", "start_time": 1650, "end_time": 1900, "confidence": 0.99},
+              {"text": "。", "start_time": 1900, "end_time": 1900, "confidence": 0}]},
+   {"text": "今天聊聊为什么开始做视频。", "start_time": 2100, "end_time": 4100,
+    "words": [{"text": "今天", "start_time": 2100, "end_time": 2400, "confidence": 0.99},
+              {"text": "聊聊", "start_time": 2400, "end_time": 2800, "confidence": 0.95},
+              {"text": "为什么", "start_time": 2800, "end_time": 3300, "confidence": 0.97},
+              {"text": "开始", "start_time": 3300, "end_time": 3600, "confidence": 0.98},
+              {"text": "做视频", "start_time": 3600, "end_time": 4100, "confidence": 0.96},
+              {"text": "。", "start_time": 4100, "end_time": 4100, "confidence": 0}]}]}}

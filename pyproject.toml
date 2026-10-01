@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asr-benchmark"
+version = "0.1.0"
+description = "Reproducible, provenance-first comparison of speech-to-text providers on the same audio."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Rongzhi Chen"}]
+requires-python = ">=3.10"
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Multimedia :: Sound/Audio :: Speech"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.5"]
+
+[project.scripts]
+asr-benchmark = "asr_benchmark.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["asr_benchmark*"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]  # long literal/HTML lines are deliberate
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,12 @@
+_local/
+runs/
+*.key
+*.key.txt
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
